@@ -26,9 +26,10 @@
     <main>
         <h2>Recursos Educativos</h2>
         <!-- recursos educativos guias, mensajes... -->
+        <p>videos, guias.....</p>
     </main>
     <footer>
-    <p>&copy;Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
+    <p>&copy; Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
     </footer>
 </body>
 

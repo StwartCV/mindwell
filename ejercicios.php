@@ -28,7 +28,7 @@
         <!--ejercicios de meditación y mindfulness -->
     </main>
     <footer>
-    <p>&copy;Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
+    <p>&copy; Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
     </footer>
 </body>
 

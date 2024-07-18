@@ -26,9 +26,10 @@
     <main>
         <h2>Foros</h2>
         <!-- foros B.D -->
+        <p>Aca van a ir algunos foros de usuarios cargados desde B.D.</p>
     </main>
     <footer>
-    <p>&copy;Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
+    <p>&copy; Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
     </footer>
 </body>
 

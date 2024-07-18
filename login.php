@@ -22,7 +22,7 @@
         </nav>
     </header>
     <main>
-        <h2>Inicio de Sesión</h2>
+        <center><h2>Inicio de Sesión</h2></center>
         <form id="loginForm" action="procesar_login.php" method="post">
             <label for="correo">Correo Electrónico:</label>
             <input type="email" id="correo" name="correo" required>
@@ -34,7 +34,8 @@
         </form>
     </main>
     <footer>
-        <p>&copy;Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
+        <p>&copy; Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
+

@@ -24,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <h2>Registro</h2>
+        <center><h2>Registro</h2></center>
         <form id="registroForm" action="procesar_registro.php" method="post">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
@@ -42,7 +42,7 @@
         </form>
     </main>
     <footer>
-        <p>&copy;Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
+        <p>&copy; Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
     </footer>
 </body>
 
