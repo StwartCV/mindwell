@@ -28,7 +28,7 @@
         <!-- foros B.D -->
     </main>
     <footer>
-        <p>&copy; 2024 MindWell. Todos los derechos reservados.</p>
+    <p>&copy;Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
     </footer>
 </body>
 
