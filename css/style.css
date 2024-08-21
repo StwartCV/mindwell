@@ -1,0 +1,438 @@
+/* Reiniciar estilos predeterminados */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Comenzar la edición desde aquí */
+a {
+    text-decoration: none;
+}
+
+.txt-rt {
+    text-align: right;
+} /* Alinear texto a la derecha */
+
+.txt-lt {
+    text-align: left;
+} /* Alinear texto a la izquierda */
+
+.txt-center {
+    text-align: center;
+} /* Alinear texto al centro */
+
+.float-rt {
+    float: right;
+} /* Flotar a la derecha */
+
+.float-lt {
+    float: left;
+} /* Flotar a la izquierda */
+
+.clear {
+    clear: both;
+} /* Limpiar flote */
+
+.pos-relative {
+    position: relative;
+} /* Posición relativa */
+
+.pos-absolute {
+    position: absolute;
+} /* Posición absoluta */
+
+.vertical-base {
+    vertical-align: baseline;
+} /* Alineación vertical en la línea base */
+
+.vertical-top {
+    vertical-align: top;
+} /* Alineación vertical en la parte superior */
+
+.underline {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    margin: 0 0 20px 0;
+} /* Agregar subrayado con 5px de padding inferior */
+
+nav.vertical ul li {
+    display: block;
+} /* Menú vertical */
+
+nav.horizontal ul li {
+    display: inline-block;
+} /* Menú horizontal */
+
+img {
+    max-width: 100%;
+}
+
+/* Fin del reinicio de estilos */
+body {
+    background: #F8FBFB;
+}
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(../images/header-bg.png);
+}
+
+.logo {
+    float: left;
+    margin-top: 14px;
+}
+
+.top-nav {
+    float: right;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    float: left;
+    border-left: 1px solid rgb(31, 132, 224);
+}
+
+.top-nav ul li:first-child {
+    border-left: none;
+}
+
+.top-nav ul li a {
+    font-family: 'Ropa Sans', sans-serif;
+    background: #3391E7;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 30px;
+    display: block;
+}
+
+.top-nav ul li a:hover {
+    /* Estilos para hover en enlaces */
+}
+
+.top-nav li.active > a, .top-nav li > a:hover {
+    background: rgb(50, 133, 209);
+    border-left-color: rgb(50, 133, 209);
+}
+
+/* Grillas de contenido */
+.content-grids {
+    background: #3391E7;
+    padding: 10px 0px;
+}
+
+/* Grilla de tres columnas */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+.listview_1_of_3 {
+    display: block;
+    float: left;
+    margin: 0% 0 0% 1.6%;
+    background: #F1F6F9;
+}
+
+.listimg {
+    display: block;
+    float: left;
+}
+
+.text {
+    display: block;
+    float: left;
+    margin: 0% 0 0% 3.6%;
+}
+
+.listview_1_of_3:first-child {
+    margin-left: 0;
+} /* Todos los navegadores excepto IE6 y versiones anteriores */
+
+.images_1_of_3 {
+    width: 29.2%;
+    padding: 1.5%;
+    border-radius: 1.1em;
+}
+
+.listimg_1_of_2 {
+    width: 32.2%;
+}
+
+.list_1_of_2 {
+    width: 64.2%;
+    margin-top: 5px;
+}
+
+.images_1_of_3 img {
+    max-width: 100%;
+    display: block;
+}
+
+.list_1_of_2 h3 {
+    color: #3391E7;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+    font-size: 2em;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.list_1_of_2 p {
+    font-size: 0.8125em;
+    color: #3391E7;
+    line-height: 1.5em;
+    font-family: Arial, "Helvetica Neue", "Helvetica", Tahoma, Verdana, sans-serif;
+    padding: 0;
+}
+
+.list_1_of_2 .button {
+    line-height: 1.9em;
+    margin-top: 0.2em;
+}
+
+.list_1_of_2 .button a {
+    font-family: 'Ropa Sans', sans-serif;
+    color: rgb(139, 139, 139);
+    font-size: 1em;
+}
+
+.list_1_of_2 .button a:hover {
+    text-decoration: none;
+    color: #3391E7;
+}
+
+/* Consultas de medios */
+@media only screen and (max-width: 1024px) {
+    .wrap {
+        width: 90%;
+    }
+}
+
+/* Pantalla completa a menos de 640 píxeles */
+@media only screen and (max-width: 640px) {
+    .wrap {
+        width: 95%;
+    }
+
+    .listview_1_of_3 {
+        margin: 2% 0 2% 0%;
+    }
+
+    .text {
+        margin: 0;
+    }
+
+    .images_1_of_3 {
+        width: 94%;
+        padding: 3%;
+    }
+
+    .listimg_1_of_2 {
+        width: 100%;
+    }
+
+    .list_1_of_2 {
+        width: 100%;
+    }
+}
+
+/* Pantalla completa a menos de 480 píxeles */
+@media only screen and (max-width: 480px) {
+    .wrap {
+        width: 95%;
+    }
+
+    .listview_1_of_3 {
+        margin: 2% 0 2% 0%;
+    }
+
+    .text {
+        margin: 0;
+    }
+
+    .images_1_of_3 {
+        width: 92%;
+        padding: 4%;
+    }
+
+    .listimg_1_of_2 {
+        width: 100%;
+    }
+
+    .list_1_of_2 {
+        width: 100%;
+    }
+}
+
+/* Grilla de tres columnas */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+.col_1_of_3 {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    background: #fff;
+    border: 1px solid #edf3f3;
+}
+
+.col_1_of_3:first-child {
+    margin-left: 0;
+}
+
+.span_1_of_3 {
+    width: 29%;
+    padding: 1.5% 3% 0 0;
+}
+
+.span_1_of_3 h3 {
+    color: rgb(139, 139, 139);
+    margin-bottom: 0.2em;
+    margin-top: 0;
+    font-size: 2em;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.span_1_of_3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: rgb(155, 155, 155);
+    line-height: 1.8em;
+}
+
+/* Consultas de medios */
+@media only screen and (max-width: 1024px) {
+    .wrap {
+        width: 90%;
+    }
+}
+
+/* Pantalla completa a menos de 768 píxeles */
+@media only screen and (max-width: 768px) {
+    .wrap {
+        width: 95%;
+    }
+
+    .col_1_of_3 {
+        margin: 2% 0 2% 0%;
+    }
+
+    .span_1_of_3 {
+        width: 94%;
+        padding: 3%;
+    }
+}
+
+/* Pantalla completa a menos de 640 píxeles */
+@media only screen and (max-width: 640px) {
+    .wrap {
+        width: 95%;
+    }
+
+    .col_1_of_3 {
+        margin: 2% 0 2% 0%;
+    }
+
+    .span_1_of_3 {
+        width: 94%;
+        padding: 3%;
+    }
+}
+
+/* Pantalla completa a menos de 480 píxeles */
+@media only screen and (max-width: 480px) {
+    .wrap {
+        width: 95%;
+    }
+
+    .col_1_of_3 {
+        margin: 2% 0 2% 0%;
+    }
+
+    .span_1_of_3 {
+        width: 92%;
+        padding: 4%;
+    }
+}
+
+.footer {
+    padding: 1em;
+    color: #ffffff;
+    background: rgb(17, 75, 132);
+    clear: left;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1em;
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    letter-spacing: 1px;
+}

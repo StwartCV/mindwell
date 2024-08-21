@@ -26,7 +26,7 @@
     <main>
         <h2>Directorio de Profesionales</h2>
         <!-- lista profesionales B.D -->
-        <p>Lista de los profesionales y sus especializaciones.</p>
+        <p>Lista de los profesionales y sus especializaciones. Hola Jeny</p>
     </main>
     <footer>
         <p>&copy; Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>

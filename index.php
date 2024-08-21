@@ -29,7 +29,7 @@
         <p>Tu plataforma para apoyo emocional y salud mental.</p>
     </main>
     <footer>
-        <p>&copy;Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
+        <p>&copy; Stward Calderon 2024 MindWell. Todos los derechos reservados.</p>
     </footer>
 </body>
 
